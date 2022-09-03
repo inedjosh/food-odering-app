@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodie-go</title>
+  </head>
+  <body>
+    <header class="bg-red-500">
+      <div>Foodie-Go</div>
+      <div>
+        <button>LOGIN/SIGNUP</button>
+      </div>
+    </header>
+    <main>
+      <section class="first_card">
+        <aside>
+          <img alt="side" id="img_left" />
+        </aside>
+        <div class="delivery">
+          <h1>Everything you need, delivered now</h1>
+          <form id="form">
+            <div>
+              <label for="delivery_address">Delivering to:</label>
+              <span id="delivery_address_set"></span>
+              <small id="change">Change address</small>
+            </div>
+            <input
+              type="text"
+              placeholder="Enter your delivery address"
+              id="delivery_address"
+              name="delivery_address"
+            />
+            <button name="submit" type="submit">
+              <svg
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                ></path>
+              </svg>
+            </button>
+          </form>
+          <div class="category" id="category"></div>
+        </div>
+        <aside>
+          <img alt="side" id="img_right" />
+        </aside>
+      </section>
+
+      <div class="second_card">
+        <h2>How it works</h2>
+        <div class="how_it_works">
+          <div>
+            <img id="location" alt="location" />
+            <h3>Set location</h3>
+            <p>Select the location where you want us to deliver</p>
+          </div>
+          <div>
+            <img id="product" alt="product" />
+            <h3>Set location</h3>
+            <p>Select the location where you want us to deliver</p>
+          </div>
+          <div>
+            <img id="deliver" alt="deliver" />
+            <h3>Set location</h3>
+            <p>Select the location where you want us to deliver</p>
+          </div>
+        </div>
+      </div>
+      <div class="third_card">
+        <h1>Suscribe to our newsletter today!</h1>
+        <p>
+          Don't miss out on our great offers & Receive deals from all our top
+          vendors via e-mail
+        </p>
+        <input
+          class="email_input"
+          type="email"
+          name="email"
+          placeholder="E-mail"
+        />
+        <button type="submit" id="Suscribe_btn">Suscribe newsletter</button>
+        <div>
+          <input type="checkbox" name="agree" id="agree" />
+          <label for="agree" id="agree"
+            >I have read and accepted the Terms and conditions and the Privacy
+            policy</label
+          >
+        </div>
+      </div>
+      <div class="fourth_card">
+        <img id="ads" alt="ads" />
+        <h1>Jumia Food for Corporate</h1>
+        <p>
+          Order lunch, fuel for meetings or late-night deliveries to the office.
+          Your favorite vendors coming to a desk near you.
+        </p>
+      </div>
+      <div class="fifth_card">
+        <div>
+          <h1>Order Food</h1>
+          <p>
+            The Jumia Food app makes it simple for anybody to use a mobile
+            device to look over the menu of the best vendors and place an order
+            for home delivery.
+          </p>
+          <div class="download_div">
+            <img id="ios" alt="Download Ios" />
+            <img id="android" alt="Download Android" />
+          </div>
+        </div>
+        <div>
+          <img id="phone" alt="Phone" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
